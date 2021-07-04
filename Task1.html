@@ -12,9 +12,10 @@
 <script>
  function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500); 
 </script>
- 
+ <div class="form-style-5">
 <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
-
+<fieldset>
+<legend><span class="number">1</span> Contact Us</legend>
 <input type=hidden name='captcha_settings' value='{"keyname":"Task1","fallback":"true","orgId":"00D5g000005VqBq","ts":""}'>
 <input type=hidden name="oid" value="00D5g000005VqBq">
 <input type=hidden name="retURL" value="https://dhdev-322.herokuapp.com/">
@@ -36,9 +37,8 @@ Product Interest:<select  id="00N5g00000HguYo" name="00N5g00000HguYo" title="Pro
 
 <div class="g-recaptcha" data-sitekey="6Lctb24bAAAAAAj8u1E3tGvCP82Iq9zr_7WWAXp_"></div><br>
 <input type="submit" name="submit">
-
+</fieldset>
 </form>
-
+</div>
 </body>
-
 
