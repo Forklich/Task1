@@ -7,7 +7,7 @@
     z-index: -999999;
     opacity: 0;
 }
-.form-style-4 {
+.form-style-5 {
 	max-width: 500px;
 	padding: 10px 20px;
 	background: #f4f7f8;
@@ -18,24 +18,24 @@
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.form-style-4 fieldset {
+.form-style-5 fieldset {
 	border: none;
 }
 
-.form-style-4 legend {
+.form-style-5 legend {
 	font-size: 1.4em;
 	margin-bottom: 10px;
 }
 
-.form-style-4 label {
+.form-style-5 label {
 	display: block;
 	margin-bottom: 8px;
 }
 
-.form-style-4 input[type="text"],
-.form-style-4 input[type="email"],
-.form-style-4 textarea,
-.form-style-4 select {
+.form-style-5 input[type="text"],
+.form-style-5 input[type="email"],
+.form-style-5 textarea,
+.form-style-5 select {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	background: rgba(255, 255, 255, .1);
 	border: none;
@@ -54,24 +54,24 @@
 	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
 	margin-bottom: 30px;
 }
-.form-style-4 label {
+.form-style-5 label {
 	display: block;
 	margin-bottom: 8px;
 }
 
-.form-style-4 input[type="text"]:focus,
-.form-style-4 input[type="email"]:focus,
-.form-style-4 textarea:focus,
-.form-style-4 select:focus {
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus {
 	background: #d2d9dd;
 }
 
-.form-style-4 select {
+.form-style-5 select {
 	-webkit-appearance: menulist-button;
 	height: 35px;
 }
 
-.form-style-4 input[type="submit"] {
+.form-style-5 input[type="submit"] {
 	position: relative;
 	display: block;
 	padding: 19px 39px 18px 39px;
@@ -87,7 +87,7 @@
 	margin-bottom: 10px;
 }
 
-.form-style-4 input[type="submit"]:hover,
+.form-style-5 input[type="submit"]:hover,
 {
 	background: #109177;
 }
